@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.todolist_container {
+  margin-top: 100px;
+}
+
+.filter_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_gr {
+  margin: 0 20px;
+}
+
+.form_input {
+  margin-top: 50px;
+}
+
+.list_todo {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list_todo>p {
+  margin-right: 20px;
+}
+
+.active {
+  font-style: oblique;
+  text-decoration: line-through;
+}
